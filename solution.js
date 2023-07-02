@@ -23,3 +23,16 @@ console.log(solution('abc', 'bc')) // true
 console.log(solution('abc', 'd')) // false
 console.log(solution('sumo', 'omo')) // false
 console.log(solution(':-)', ':-(')) // false
+
+
+// Alternate Solution
+
+
+const solutions = (str, ending) => {
+    return str.endsWith(ending)
+}
+
+console.log(solutions('abc', 'bc')) // true
+console.log(solutions('abc', 'd')) // false
+console.log(solutions('sumo', 'omo')) // false
+console.log(solutions(':-)', ':-(')) // false
